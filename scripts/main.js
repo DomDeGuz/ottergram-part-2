@@ -65,7 +65,7 @@ function nextImage(thumb) {
     setDetailsFromThumb(thumb[centerImage]);
   }
   else {
-    centerImage = centerImage + 1;
+    centerImage++;
     setDetailsFromThumb(thumb[centerImage]);
   }
 }
