@@ -1,4 +1,4 @@
-var DETAIL_IMAGE_SELECTOR = "[data-image-role='target']"; //eslintrc was giving me errors on using single and double quotes, which is why it does not follow the book in that regard
+var DETAIL_IMAGE_SELECTOR = "[data-image-role='target']"; //eslintrc was giving me errors on using quotes, which is why it does not follow the book
 var DETAIL_TITLE_SELECTOR = "[data-image-role='title']";
 var THUMBNAIL_LINK_SELECTOR = "[data-image-role='trigger']";
 var centerImage = 0;
